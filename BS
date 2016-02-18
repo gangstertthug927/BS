@@ -1,0 +1,18 @@
+module (
+
+random [2:0];
+yaya [3:0];
+stuff [1:0]
+
+always@[stuff]
+begin
+if stuff=1
+begin 
+yaya=1
+end
+else stuff=0
+begin 
+yaya=0
+end
+end
+)
